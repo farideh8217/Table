@@ -1,0 +1,25 @@
+table{
+    width:40%;
+    border-spacing:5px;
+    margin: auto;
+}
+table td{
+    border: 2px solid #607d8b; 
+}
+td{
+    padding: 5px;
+    text-align: center;
+}
+th{
+    background-color: yellowgreen;
+    color: #fff;
+    border:7px solid #ccc;
+    padding:5px;
+}
+tr:nth-child(even){
+    background-color: B0BEC5;
+}
+tr:nth-child(odd):hover{
+    background-color: mediumvioletred;
+    
+}
